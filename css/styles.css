@@ -120,6 +120,8 @@ color: #404BBF;
 }
 
 .section-second-heading{
+    text-align: center;
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -128,18 +130,20 @@ color: #404BBF;
 }
 
 .our-team{
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 .our-team-heading{
     text-align: center;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-
+.our-team-list{
+    background-color: #FFFFFF
+}
 .our-team-name{
     font-weight: 500;
     font-size: 20px;
