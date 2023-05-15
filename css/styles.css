@@ -38,7 +38,7 @@ color: #434455;
 }
 
 .header-link{
-    
+    font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -156,25 +156,25 @@ color: #404BBF;
 
 .footer-logo{
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5
 }
-.footer-logo-web{
+.footer-logo-studio{
 font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
+    text-transform:uppercase;
+    color: #f4f4fd;
 }
 .footer-text{
     background: #2E2F42;
@@ -186,7 +186,7 @@ font-family: 'Raleway', sans-serif;
 
 .footer{
     background-color: #2e2f42;
-}
+    }
 /*---------- css portfolio------------- */
 
 .button{
