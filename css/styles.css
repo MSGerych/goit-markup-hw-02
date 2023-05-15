@@ -1,6 +1,7 @@
 body{
-    font-family:'Roboto',
-        sans-serif;
+    font-family:'Roboto', sans-serif;
+background-color: #FFFFFF;
+color: #434455;
 }
 
 .list{
@@ -10,7 +11,7 @@ body{
     text-decoration: none;
 }
 
-.header-logo-web{
+.header-logo-studio{
         
         font-family: 'Raleway', sans-serif;
         font-style: normal;
@@ -19,7 +20,7 @@ body{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;
+        color: #2E2F42;
 }
 
 .header-logo{
@@ -33,7 +34,7 @@ body{
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    color:#2E2F42
+    color:#4d5ae5
 }
 
 .header-link{
@@ -50,7 +51,7 @@ color: #404BBF;
 }
 
 .header-address-link{
-   
+font-style: normal;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -61,7 +62,7 @@ color: #404BBF;
 }
 
 .header-address-tel{
-       
+    font-style: normal;
         font-size: 16px;
         line-height: 1.5;
     
@@ -83,10 +84,12 @@ color: #404BBF;
     font-size: 56px;
     line-height:1.07;    
     letter-spacing: 0.02em;
-    color: #FFFFFF;;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .hero-button{
+    font-family: 'Roboto',sans-serif;
     background: #4D5AE5;
     font-style: normal;
     font-weight: 500;
@@ -95,6 +98,9 @@ color: #404BBF;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+}
+.hero-button:hover, .hero-button:focus{
+    background-color: #404BBF
 }
 
 
@@ -122,12 +128,14 @@ color: #404BBF;
 }
 
 .our-team{
-    background: #F4F4FD;
+    background-color: #FFFFFF;
 }
 .our-team-heading{
+    text-align: center;
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -135,13 +143,13 @@ color: #404BBF;
 .our-team-name{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2x;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .our-team-profesion{
     font-size: 16px;
-    line-height: 1.5x;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -175,9 +183,14 @@ font-family: 'Raleway', sans-serif;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+
+.footer{
+    background-color: #2e2f42;
+}
 /*---------- css portfolio------------- */
 
 .button{
+    font-family:'Roboto',sans-serif;
     background: #F4F4FD;
     font-style: normal;
     font-weight: 500;
@@ -187,7 +200,7 @@ font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
     cursor: pointer;
 }
-.button:hover{
+.button:hover, .button:focus {
     background: #404BBF;
     color: #FFFFFF;
 }
